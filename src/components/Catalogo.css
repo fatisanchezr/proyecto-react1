@@ -1,0 +1,23 @@
+.catalogo-container {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.catalogo-container h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.catalogo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.catalogo-aviso {
+  margin: 40px 0; /* Separación entre las filas */
+  font-size: 16px;
+  color: #555;
+  font-style: italic; /* Texto en cursiva */
+}
